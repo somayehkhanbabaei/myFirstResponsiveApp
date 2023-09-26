@@ -3,7 +3,6 @@
   --padding-contact: 20px 15px;
 }
 
-
 h2 {
   font-size: 48px;
   margin-top: 48px;
@@ -41,4 +40,41 @@ h3 {
 .btn-outline-primary:hover {
   color: #0d6efd;
   background-color: #fff;
+}
+
+@media (max-width: 570px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .justifyBtn {
+    margin-top: 0 !important;
+  }
+
+  .textCenter {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .textCenter:last-child {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  .justifyBtn {
+    margin-top: 0 !important;
+  }
 }
